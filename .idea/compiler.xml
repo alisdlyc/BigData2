@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Acwing" />
+        <module name="FlinkGo" />
+        <module name="NettyGo" />
+        <module name="SparkGo" />
+        <module name="KafkaGo" />
+        <module name="JsoniterGo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
