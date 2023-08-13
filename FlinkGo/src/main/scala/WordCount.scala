@@ -14,7 +14,7 @@ object WordCount {
       .map((_, 1))
       .groupBy(0)
       .sum(1)
-
-      wordCountDs.print()
+      .collect()
+      .foreach(println)
   }
 }
